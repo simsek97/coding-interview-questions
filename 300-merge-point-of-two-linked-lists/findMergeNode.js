@@ -1,3 +1,6 @@
+/**
+ * @class ListNode
+ */
 class ListNode {
   constructor(data) {
     this.data = data;
@@ -5,6 +8,15 @@ class ListNode {
   }
 }
 
+/**
+ * Function takes two ListNode type of linked lists as parameter
+ * and finds the merge point of these lists and return it.
+ * If there is no merge point of these two lists then it returns null
+ *
+ * @param ListNode headA
+ * @param ListNode headB
+ * @return ListNode, null
+ */
 function findMergeNode(headA, headB) {
   let lengthOfFirst = 0;
   let lengthOfSecond = 0;
