@@ -13,9 +13,9 @@ class ListNode {
  * and finds the merge point of these lists and return it.
  * If there is no merge point of these two lists then it returns null
  *
- * @param ListNode headA
- * @param ListNode headB
- * @return ListNode, null
+ * @param {ListNode} headA
+ * @param {ListNode} headB
+ * @return {ListNode, null}
  */
 function findMergeNode(headA, headB) {
   let lengthOfFirst = 0;

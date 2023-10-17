@@ -11,8 +11,8 @@ class BinarySearchTree {
   /**
    * This method adds a new node to the binary search tree
    *
-   * @param BinarySearchTree root
-   * @param number value
+   * @param {BinarySearchTree} root
+   * @param {number} value
    */
   insertNode(root, value) {
     const newNode = new BinarySearchTree(value);
@@ -31,8 +31,8 @@ class BinarySearchTree {
   /**
    * This method searches the binary search tree for a given number x
    *
-   * @param BinarySearchTree root
-   * @param number x
+   * @param {BinarySearchTree} root
+   * @param {number} x
    * @return
    */
   searchTree(root, x) {
@@ -45,7 +45,7 @@ class BinarySearchTree {
   /**
    * This method prints all element in a binary search tree
    *
-   * @param BinarySearchTree root
+   * @param {BinarySearchTree} root
    */
   printTree(root) {
     console.log(root.value);
