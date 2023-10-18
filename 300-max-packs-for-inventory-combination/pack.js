@@ -4,7 +4,7 @@
  * @param {Array} combination
  * @return {number}
  */
-function pack(inventory, combination) {
+function maxNumberOfBoxes(inventory, combination) {
   // Check if either is empty and retunr 0
   if (inventory.length == 0) return 0;
   if (combination.length == 0) return 0;
@@ -40,9 +40,9 @@ function pack(inventory, combination) {
 }
 
 // Test case 1
-const r1 = pack(['A', 'C', 'A', 'D', 'E', 'C', 'A', 'B', 'B', 'C'], ['A', 'B', 'C', 'C']);
+const r1 = maxNumberOfBoxes(['A', 'C', 'A', 'D', 'E', 'C', 'A', 'B', 'B', 'C'], ['A', 'B', 'C', 'C']);
 console.log(r1);
 
 // Test case 2
-const r2 = pack(['A', 'A', 'A'], ['A']);
+const r2 = maxNumberOfBoxes(['A', 'A', 'A'], ['A']);
 console.log(r2);
